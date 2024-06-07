@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Personal Finance Manager</title>
+    <link rel="stylesheet" href="/css/rg_styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+</head>
+<body>
+
+    <main>
+        <div class="container">
+            <div class="wrapper">
+              <div class="title"><span style="text-align: center;">Personal Finance Manager</span></div>
+        <form id="loginForm" action="login.php" method="POST">
+
+
+            <div class="row">
+                <i class="fas fa-user"></i>
+                <input type="text" id="username" name="username" placeholder="Enter Username">
+              </div>
+              <br>
+              <div class="row">
+                <i class="fas fa-lock"></i>
+                <input type="password" id="password" name="password" placeholder="Enter Password">
+              </div>
+              <div class="row button">
+                <input type="submit" value="Login"> 
+                <br>
+            <a href="register.html" style="padding-left: 40%; text-decoration:none;">Register</a>
+        </form>
+        </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
